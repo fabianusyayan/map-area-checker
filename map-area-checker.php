@@ -81,9 +81,7 @@ class Map_area_checker
 
 		<?php
 
-        $content = ob_get_contents();
-        ob_end_clean();
-        echo $content;
+     return ob_get_clean();
 
     }
 
