@@ -7,7 +7,7 @@ Map area checker is a WordPress plugin designed to determine whether a given add
 
 **Setting up custom map**
 
-Before use this plugin you must have a custom kml map  like this https://www.google.com/maps/d/u/3/viewer?mid=1vKj-93qsHe9Sv-pARXhiTvS-nNur6UUO&ll=-37.81735011743435%2C144.96972933511174&z=15
+Before use this plugin you must have a custom kml map  like this https://www.google.com/maps/d/u/3/viewer?mid=1vKj-93qsHe9Sv-pARXhiTvS-nNur6UUO&ll=-37.81735011743435%2C144.96972933511174&z=15 but if you want to fast test there is [sample.json](https://github.com/fabianusyayan/map-area-checker/blob/master/sample.json) file.
 
 - Download kml 
 - ![image](https://i.imgur.com/m7DcLjt.png);
@@ -18,7 +18,7 @@ Before use this plugin you must have a custom kml map  like this https://www.goo
 - install and activate plugin 
 - get token mapbox [here](https://account.mapbox.com/)
 - here sample token `pk.eyJ1IjoibXVtdWtlbWFzYW5iYXJ1IiwiYSI6ImNscmMxMmV6YzB0czIycXByZjB6ZnA2MWcifQ.8eYTj6XvTIqdDRi2JhWTlA`
-- input token and json
+- input token and json 
 - input inside and outside action url
 - ![image](https://i.imgur.com/9WjF9ki.png)
 

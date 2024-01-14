@@ -13,7 +13,7 @@ class MAC_Admin
         add_action( 'admin_init', array( $this, 'mac_settings_init' ) );
         add_action('admin_menu', array($this, 'mac_register_menu'));
         add_action( 'admin_enqueue_scripts', array( $this, 'mac_enqueue' ) );
-        add_filter( 'upload_mimes', array($this, 'mac_add_kml_type_file') );
+        add_filter( 'upload_mimes', array($this, 'mac_add_json_type_file') );
     }
 
     /**
@@ -187,9 +187,9 @@ class MAC_Admin
 	/**
 	 * Allow .kml type upload to media library
 	 */
-	public function mac_add_kml_type_file(){
+	public function mac_add_json_type_file($mimes){
 
-		$mimes['json'] = 'text/xml';
+		$mimes['json'] = 'application/json';
 		 return $mimes;
 	}
 }
